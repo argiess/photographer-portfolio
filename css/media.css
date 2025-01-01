@@ -1,0 +1,83 @@
+@import url(./style.css);
+
+
+/* HERO SECTION RESPONSIVE CSS */
+@media (max-width: 450px) {
+  .hero__section .center h1{
+    font-size: calc(1em + 5.5vw);
+  }
+}
+
+/* IMAGE GALLERY RESPONSIVE CSS */
+@media screen and (max-width: 900px) {
+  .portfolio__gallery {
+    max-width: 100%;
+    padding: 1.5rem 10rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+    .portfolio__gallery {
+      max-width: 100%;
+      padding: 1.5rem 5rem;
+    }
+}
+  
+@media screen and (max-width: 700px) {
+    .portfolio__gallery {
+      max-width: 100%;
+      padding: 1.5rem 2.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+  .h2{
+    font-size: calc(1em + 5.5vw)
+  }
+  .portfolio__gallery {
+    max-width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* ABOUT RESPONSIVE CSS */
+@media screen and (max-width: 1000px) {
+  .about{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about{
+    padding: 4rem 2rem;
+  }
+  .about p{
+    font-size: 1.4rem;
+  }
+}
+
+/* CONTACT FORM RESPONSIVE CSS */
+@media screen and (max-width: 400px) {
+  .form__popup {
+    width: 28rem;
+  }
+  .form__container input{
+    height: 2.5rem;
+  }
+  .form__container textarea{
+    height: 8rem;
+  }
+}
+
+/* FOOTER RESPONSIVE CS */
+@media screen and (max-width: 600px) {
+  .footer{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+  .footer .socials{
+    margin-bottom: 1.5rem;
+  }
+}
